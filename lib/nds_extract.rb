@@ -7,7 +7,7 @@ require 'pry'
 # { directorOne => allTheMoneyTheyMade, ... }
 
 def directors_totals(nds)
-  result = {[:name],[:movies]}
+  result = 
   
 end
 # Find a way to accumulate the :worldwide_grosses and return that Integer
