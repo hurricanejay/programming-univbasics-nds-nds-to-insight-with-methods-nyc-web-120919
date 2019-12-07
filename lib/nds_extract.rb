@@ -22,14 +22,11 @@ end
 def gross_for_director(director_data)
   total = 0
   index = 0
-  director_data.each do |director|   #single director
-    while index < director_data[:movies].length do 
-      total += director_data[:movies][index][:worldwide_gross]
-      index += 1
-    end
-    # director_data.each do |director|
-    # director[:movies]
-  end
-total
-end
 
+  while index < director_data[:movies].length do
+    total += director_data[:movies][index][:worldwide_gross]
+    index += 1
+  end
+
+  total
+end
